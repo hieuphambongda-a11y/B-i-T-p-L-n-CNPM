@@ -19,7 +19,7 @@ body{
     justify-content: center;
 }
 
-/* Wrapper chung cho cả 2 form */
+
 .form-wrapper{
     width: 400px;
     background: #fff;
@@ -28,15 +28,15 @@ body{
     box-shadow: 0 0 20px rgba(0,0,0,0.1);
 }
 
-/* Tiêu đề form */
+
 .title, .text-center{
     text-align: center;
     margin-bottom: 20px;
-    color: #8B4513; /* màu nâu đồng bộ */
+    color: #8B4513; 
     font-size: 1.8rem;
 }
 
-/* Input chung */
+
 .form-input, .form-control{
     width: 100%;
     padding: 12px 14px;
@@ -47,20 +47,20 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-/* Hiệu ứng focus */
+
 .form-input:focus, .form-control:focus{
-    border-color: #8B4513; /* viền nâu khi focus */
+    border-color: #8B4513; 
     outline: none;
     box-shadow: 0 0 0 2px rgba(139,69,19,0.3);
 }
 
-/* Nút chung */
+
 .btn-submit, .btn{
     width: 100%;
     padding: 12px;
     border: none;
     border-radius: 25px;
-    background: #8B4513; /* màu nâu */
+    background: #8B4513;
     color: #fff;
     font-size: 1.1rem;
     cursor: pointer;
@@ -69,10 +69,10 @@ body{
 }
 
 .btn-submit:hover, .btn:hover{
-    background: #6F3410; /* nâu đậm khi hover */
+    background: #6F3410; 
 }
 
-/* Alert chung */
+
 .alert{
     padding: 10px;
     margin-bottom: 10px;
@@ -93,16 +93,17 @@ body{
 .login-text{
     text-align: center;
     margin-top: 15px;
-    font-size: 0.9rem;   /* font nhỏ vừa phải */
+    font-size: 0.9rem; 
     color: #555;
 }
 
 .login-text a{
     text-decoration: none;
-    color: #8B4513;       /* màu nâu đồng bộ */
+    color: #8B4513;      
     font-weight: 500;
 }
 
 .login-text a:hover{
     color: #6F3410;       /* nâu đậm khi hover */
 }
+
